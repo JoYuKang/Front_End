@@ -1,0 +1,28 @@
+div{
+  width: 300px;
+  height: 100px;
+  background-color: burlywood;
+}
+div .sd{
+  color: brown;
+}
+label>.dd{
+  background-color: blueviolet;
+}
+
+div > .zz{
+  color: crimson;
+}
+
+.box{
+  width: 300px;
+  height: 500px;
+  transition: 1s;
+  background-color: darkorchid;
+}
+.box:hover{
+  width: 700px;
+}
+.box:active{
+  width: 100px;
+}
