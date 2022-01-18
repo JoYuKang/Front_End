@@ -11,3 +11,16 @@ a{
 img{
   align-content: center;
 }
+
+.inputF:focus{
+  background-color: orange;
+}
+.box{
+  height: 300px;
+  width: 300px;
+  border: 2px;
+  border-style: solid;
+  border-color: red;
+  border-radius: 30px;
+  transform: skewX(-45deg);
+}
