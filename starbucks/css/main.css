@@ -7,6 +7,8 @@ body {
 
 }
 
+
+
 a {
   text-decoration: none;
 }
@@ -16,13 +18,15 @@ img {
 }
 
 /* HEADER */
-header {}
+header {
+  background-origin: #f6f5f0;
+  border-bottom: 1px solid #c8c8c8;
+}
 
 header .inner {
-  margin: 0 auto;
   width: 1100px;
   height: 120px;
-  background-color: orange;
+  margin: 0 auto;
   position: relative;
 }
 
@@ -37,8 +41,10 @@ header .logo {
 
 header .sub-menu {
   font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-
+  position: absolute;
+  top: 10px;
+  display: flex; 
+  right: 0; 
 }
 
 header .sub-menu ul.menu {
@@ -88,6 +94,7 @@ header .sub-menu .search input {
   height: 34px;
   padding: 4px 10px;
   border: 1px solid #ccc;
+  box-sizing: border-box;
   border-radius: 5px;
   outline: none;
   background-color: #fff;
@@ -102,14 +109,17 @@ header .sub-menu .search input:focus {
 
 }
 
-header .sub-menu .search .meterial-icons {
-  height: 24px;
+header .sub-menu .search .material-icons {
+  height: 24px;    
   position: absolute;
   top: 0;
   bottom: 0;
   right: 5px;
   margin: auto;
+  transition: .4s;
 }
 
-
+header .sub-menu .search.focused .meterial-icons{
+  opacity: 0;
+}
 
