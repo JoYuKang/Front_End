@@ -25,6 +25,12 @@
     rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="./css/main.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"
+    integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+    integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script defer src="./js/main.js"></script>
 </head>
 
@@ -176,64 +182,108 @@
             </div>
             <div class="contents__texture">
               <div class="inner">
-              <h4 class="new">스타벅스 티바나</h4>
-              <p>다양한 찻잎과 향신료 등 개성있는 재료로 새로운 맛과 향의 티를 선보입니다.</p>
+                <h4 class="new">스타벅스 티바나</h4>
+                <p>다양한 찻잎과 향신료 등 개성있는 재료로 새로운 맛과 향의 티를 선보입니다.</p>
+              </div>
             </div>
           </div>
+
+        </li>
+        <li class="item">
+          <div class="item__name">STORE</div>
+          <div class="item_contents">
+            <div class="contents__menu">
+              <ul class="inner">
+                <li>
+                  <h4>매장 찾기</h4>
+                  <ul>
+                    <li>퀵 검색</li>
+                    <li>지역 검색</li>
+                    <li>My 매장</li>
+                  </ul>
+                </li>
+                <li>
+                  <h4>매장 이야기</h4>
+                  <ul>
+                    <li>청담스타</li>
+                    <li>티바나 인스파이어드 매장</li>
+                    <li>파미에파크</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="contents__texture">
+              <div class="inner">
+                <h4>매장 찾기</h4>
+                <p>보다 빠르게 매장을 찾아보세요.</p>
+                <h4 class="new">청담스타</h4>
+                <p>스타벅스 1,000호점인 청담스타점을 만나보세요.</p>
+
+              </div>
+            </div>
+          </div>
+
+        </li>
+        <li class="item">
+          <div class="item__name">RESPONSIBILITY</div>
+          <div class="item_contents"></div>
+        </li>
+        <li class="item">
+          <div class="item__name">MY STARBUCKS REWARD</div>
+          <div class="item_contents"></div>
+        </li>
+        <li class="item">
+          <div class="item__name">WHAT'S NEW</div>
+          <div class="item_contents"></div>
+        </li>
+      </ul>
     </div>
 
-    </li>
-    <li class="item">
-      <div class="item__name">STORE</div>
-      <div class="item_contents">
-        <div class="contents__menu">
-          <ul class="inner">
-            <li>
-              <h4>매장 찾기</h4>
-              <ul>
-                <li>퀵 검색</li>
-                <li>지역 검색</li>
-                <li>My 매장</li>
-              </ul>
-            </li>
-            <li>
-              <h4>매장 이야기</h4>
-              <ul>
-                <li>청담스타</li>
-                <li>티바나 인스파이어드 매장</li>
-                <li>파미에파크</li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-        <div class="contents__texture">
-          <div class="inner">
-            <h4>매장 찾기</h4>
-            <p>보다 빠르게 매장을 찾아보세요.</p>
-            <h4 class="new">청담스타</h4>
-            <p>스타벅스 1,000호점인 청담스타점을 만나보세요.</p>
-          
-        </div>
-        </div>
+    <div class="badges">
+      <div class="badge">
+        <img src="./images/badge1.jpg" alt="badge1">
+      </div>
+      <div class="badge">
+        <img src="./images/badge2.jpg" alt="badge2">
+      </div>
+      <div class="badge">
+        <img src="./images/badge3.jpg" alt="badge3">
+      </div>
+    </div>
+  </header>
+
+  <!-- VISUAL -->
+  <section class="visual">
+    <div class="inner">
+      <div class="title fade-in">
+        <img src="./images/visual_title.png" alt="visual_title">
+        <a href="#" class="btn btn--brown">자세히 보기</a>
+      </div>
+      <div class="fade-in">
+        <img src="./images/visual_cup1.png" alt="visual_cup1" class="cup1 image">
+        <img src="./images/visual_cup1_text.png" alt="visual_cup1_text" class="cup1 text">
       </div>
 
-    </li>
-    <li class="item">
-      <div class="item__name">RESPONSIBILITY</div>
-      <div class="item_contents"></div>
-    </li>
-    <li class="item">
-      <div class="item__name">MY STARBUCKS REWARD</div>
-      <div class="item_contents"></div>
-    </li>
-    <li class="item">
-      <div class="item__name">WHAT'S NEW</div>
-      <div class="item_contents"></div>
-    </li>
-    </ul>
+      <div class="fade-in">
+        <img src="./images/visual_cup2.png" alt="visual_cup2" class="cup2 image">
+        <img src="./images/visual_cup2_text.png" alt="visual_cup2_text" class="cup2 text">
+      </div>
+      <div class="fade-in">
+        <img src="./images/visual_spoon.png" alt="visual_spoon" class="spoon">
+      </div>
+    </div>
+  </section>
+
+
+  <section class="notice">
+
+    <div class="notice-line">
+      <div class="bg-left"></div>
+      <div class="bg-right"></div>
+      <div class="inner"></div>
     </div>
 
-  </header>
+  </section>
 
 
 
