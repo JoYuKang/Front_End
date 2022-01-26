@@ -16,3 +16,11 @@
 https://swiperjs.com/
 <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+### yutube iframe api
+기본 사용법 : https://developers.google.com/youtube/iframe_api_reference?hl=ko    
+매개변수 : https://developers.google.com/youtube/player_parameters?hl=ko     
+
+
+
+
