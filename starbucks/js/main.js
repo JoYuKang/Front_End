@@ -104,16 +104,16 @@ function random(min, max) {
 }
 
 function floatingObject(selector, delay, size) {
-  gsap.to( 
+  gsap.to(
     selector, //선택자 
-    random(1.5, 2.5),//애니메이션 동작 시간
-    { // 옵션 
-    y: size,
-    repeat: -1, // -1은 무한반복
-    yoyo: true, // 반복되는 부분을 역재생
-    ease: Power1.easeInOut,
-    delay: random(0, delay)
-  })
+    random(1.5, 2.5), //애니메이션 동작 시간
+    { // 옵션  
+      y: size,
+      repeat: -1, // -1은 무한반복
+      yoyo: true, // 반복되는 부분을 역재생
+      ease: Power1.easeInOut,
+      delay: random(0, delay)
+    })
 }
 floatingObject('.floating1', 1, 15);
 
@@ -130,3 +130,14 @@ floatingObject('.floating3', 1.5, 20);
 //   Power1.
 //   easeInOut
 //   easeInOut, y: -500 });
+
+const spyEls = document.querySelectorAll('section.scroll-spy');
+spyEls.forEach(function (spyEl) {
+  new ScrollMagic
+    .Scene({
+      triggerElement: spyEl, // 보여짐 여부를 요소를 지정
+      triggerHook: .8
+    })
+    .setClassToggle(spyEl,'show')
+    .addTo(new ScrollMagic.Controller());
+})
