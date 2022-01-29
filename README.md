@@ -21,6 +21,6 @@ https://swiperjs.com/
 기본 사용법 : https://developers.google.com/youtube/iframe_api_reference?hl=ko    
 매개변수 : https://developers.google.com/youtube/player_parameters?hl=ko     
 
-
-
+### 특수문자 
+https://dev.w3.org/html5/html-author/charref
 
