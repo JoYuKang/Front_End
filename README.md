@@ -3,8 +3,6 @@
 
 ## starbucks
 사이트 주소: starbucks-sample-main-site.netlify.app     
-링크 : <a href="starbucks-sample-main-site.netlify.app" target="_blank">starbucks</a>
-
 
 
 ## 활용하기 좋은 오픈소스 
