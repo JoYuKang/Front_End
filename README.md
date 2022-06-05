@@ -27,3 +27,5 @@ https://swiperjs.com/
 ### 특수문자 
 https://dev.w3.org/html5/html-author/charref
 
+### 정규식 참고
+https://regexr.com/
