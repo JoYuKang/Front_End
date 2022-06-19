@@ -2,7 +2,7 @@
 프론트엔드 개발 
 
 ## starbucks
-사이트 주소: starbucks-sample-main-site.netlify.app     
+사이트 주소: [starbucksClone](https://joyukang.github.io/Front_End/starbucks)
 
 
 ## 활용하기 좋은 오픈소스 
