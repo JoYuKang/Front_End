@@ -1,8 +1,33 @@
+@import "./sub","./sub2";
 
 $color: royalblue;
 
 .container{
   h1{
     color: $color;
+  }
+}
+
+.box{
+  $color: royalblue;
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: $color;
+  &:hover{
+    background-color: darken($color,40%);
+  }
+  &.box-transparency{
+    background-color: rgba($color, .5);
+    &:hover{
+      background-color: darken($color,40%);
+    } 
+  }
+  &.built-in{
+    background-color: mix($color,red);
+    &:hover{
+      background-color: darken(mix($color,red),40%);
+    }
   }
 }

@@ -1,5 +1,36 @@
+body .container {
+  background-color: orange;
+}
+
+body {
+  background-color: aquamarine;
+}
+
 .container h1 {
   color: royalblue;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: royalblue;
+}
+.box:hover {
+  background-color: #0c1b4a;
+}
+.box.box-transparency {
+  background-color: rgba(65, 105, 225, 0.5);
+}
+.box.box-transparency:hover {
+  background-color: #0c1b4a;
+}
+.box.built-in {
+  background-color: #a03571;
+}
+.box.built-in:hover {
+  background-color: #070205;
 }
 
 /*# sourceMappingURL=/main.39afc03c.css.map */

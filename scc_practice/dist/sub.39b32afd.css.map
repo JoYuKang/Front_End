@@ -1,0 +1,1 @@
+{"version":3,"sources":["sub.scss"],"names":[],"mappings":"AACE;EACE","file":"sub.39b32afd.css","sourceRoot":"..","sourcesContent":["body{\r\n  .container{\r\n    background-color: orange;\r\n  }\r\n}"]}
